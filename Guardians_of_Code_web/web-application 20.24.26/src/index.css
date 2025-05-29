@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import 'flowbite';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+}
+
+.chart-container {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.table-container {
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Ensures the border-radius applies to child elements */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  /* Additional styles can be added as needed */
+}
